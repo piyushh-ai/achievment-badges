@@ -7,15 +7,15 @@ app.get("/", (req, res) => {
 });
 
 
-
-app.get("/about",(req,res)=>{
-  res.send("this is about page")
+app.get("/kutta",(req,res)=>{
+  res.send("Hello world , modi ko kutta kata")
 })
 
 
-app.get("/home",(req,res)=>{
-  res.send("home page")
+app.get("/bjpghanta",(req,res)=>{
+  res.send("Hello world , modi motherchod ko kutta kata")
 })
+
 
 
 app.listen(3000, () => {
